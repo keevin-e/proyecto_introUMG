@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #f6f8fa;
+    color: #222;
+    line-height: 1.6;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+/* Header */
+header {
+    background: #2d3a4b;
+    color: #fff;
+    padding: 2rem 0 1rem 0;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+
+header h1 {
+    margin-bottom: 0.8rem;
+    font-size: 3rem;
+    letter-spacing: 2px;
+    font-weight: lighter;
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 0.5rem;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s;
+}
+
+nav a:hover {
+    color: #ffd166;
+}
+
+/* Haz que el contenedor principal crezca para empujar el footer */
+.main-container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin: 2.5rem auto;
+    width: 100%;
+    max-width: 1500px;
+    flex: 1 0 auto; /* Cambia a que crezca pero no se encoja a 0 */
+    align-items: flex-start;
+
+    /*align-items: stretch;  Hace que los .container tengan la misma altura */
+}
+
+.content-column {
+    flex: 1 1 80px; /* Permite que el contenedor crezca y se encoja */
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+}
+
+.container {
+    max-width: 700px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 24px rgba(44,62,80,0.07);
+    padding: 2rem 2.5rem;
+    margin: 0;
+    min-height: 25vw;
+    height: auto;  
+}
+
+article h2 {
+    font-size: 2rem;
+    color: #2d3a4b;
+    margin-bottom: 0.5rem;
+}
+
+.date {
+    color: #888;
+    font-size: 0.95rem;
+    margin-bottom: 1rem;
+    display: block;
+}
+
+article p {
+    margin-bottom: 1.5rem;
+    font-size: 1.1rem;
+}
+
+section h3 {
+    color: #457b9d;
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+}
+
+section ul {
+    list-style: disc inside;
+    padding-left: 1rem;
+}
+
+section li {
+    margin-bottom: 0.7rem;
+}
+
+section a {
+    color: #1d3557;
+    text-decoration: underline;
+    transition: color 0.2s;
+}
+
+section a:hover {
+    color: #e63946;
+}
+
+/* Footer */
+footer {
+    background: #2d3a4b;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+    font-size: 1rem;
+}
+
+.sidebar {
+    width: 500px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    padding: 1.5rem;
+    margin-top: 0;
+    margin-right: 2rem;
+    min-height: 80vh;
+
+}
+
