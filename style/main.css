@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Segoe UI', Arial, sans-serif;
+    font-family: 'Fredoka', sans-serif;
 }
 
 body {   
@@ -24,9 +24,9 @@ header {
 
 header h1 {
     margin-bottom: 0.8rem;
-    font-size: 3rem;
+    font-size: 3.5rem;
     letter-spacing: 2px;
-    font-weight: lighter;
+    
 }
 
 
@@ -41,7 +41,7 @@ nav ul {
 nav a {
     color: #fff;
     text-decoration: none;
-    font-weight: 500;
+    font-weight: 400;
     transition: color 0.2s;
 }
 
@@ -84,12 +84,14 @@ h2 {
     font-size: 2rem;
     color: #2d3a4b;
     margin-bottom: 0.5rem;
+    font-weight:500;
 }
 
 h3 {
     color: #457b9d;
     margin-bottom: 1rem;
     font-size: 1.3rem;
+    font-weight: 500;
 }
 
 .date {
@@ -102,6 +104,7 @@ h3 {
 p {
     margin-bottom: 1.5rem;
     font-size: 1.1rem;
+    font-weight: 400;
 }
 
 a {
@@ -146,6 +149,49 @@ section li {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    margin: 0;
+    background: #2d3a4b;
+    min-width: 180px;
+    border-radius: 0 0 8px 8px;
+    box-shadow: 0 4px 16px rgba(44,62,80,0.10);
+    z-index: 100;
+    padding: 0.5rem 0;
+}
+
+.dropdown-menu li {
+    width: 100%;
+}
+
+.dropdown-menu a {
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    display: block;
+    text-align: left;
+    text-decoration: none;
+    font-weight: 400;
+    transition: background 0.4s;
+}
+
+.dropdown-menu a:hover {
+    background: #457b9d;
+    color: #fff;
+}
+
+.dropdown:hover > .dropdown-menu,
+.dropdown-menu:hover {
+    display: block;
 }
 
 footer {
