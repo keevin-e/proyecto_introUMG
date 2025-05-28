@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Checkov | Herramienta DevSecOps</title>
+    <link rel="stylesheet" href="../style/checkov.css" />
+    <link rel="stylesheet" href="../style/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="icon" href="/media/security_favicon.png" type="image/png" />
+</head>
+<body>
+    <header>
+        <h1> DEVSECOPS FOR DUMMIES</h1>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="devsecops.html">¿Que es DevSecOps?</a></li>
+                <li class="dropdown">
+                    <a href="#">Herramientas</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="checkov.html">Checkov</a></li>
+                        <li><a href="jfrogxray.html">Jfrog Xray</a></li>
+                        <li><a href="fluid-attack.html">Fluid Attacks</a></li>                        
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="main-container">
+            <div class="publication-div-article">
+                <article>
+                    <img class="checkov-logo" src="../media/checkov.png" alt="checkov Logo">
+                    
+                    <p class="date">Publicado el 27 de mayo de 2025</p>
+                    <p>Checkov es una herramienta de código abierto diseñada para analizar la seguridad de infraestructuras como código (IaC), tales como Terraform, CloudFormation, Kubernetes, ARM y otros. Su principal función es identificar configuraciones inseguras o no conformes en los archivos de IaC antes de que sean desplegados en entornos de nube, ayudando a prevenir vulnerabilidades y errores de configuración que podrían ser explotados por atacantes.</p>
+                    <p>Checkov funciona escaneando los archivos de infraestructura y aplicando una amplia colección de políticas y reglas de seguridad, basadas en buenas prácticas, estándares de la industria y requisitos de cumplimiento. Al ejecutarse, genera reportes detallados que muestran los recursos afectados, la severidad de los hallazgos y recomendaciones para corregirlos.</p>
+                    <p>Profundizando, Checkov permite personalizar y extender las políticas de seguridad, integrarse fácilmente en pipelines CI/CD y soporta múltiples proveedores de nube. Esto lo convierte en una herramienta esencial para equipos DevSecOps que buscan automatizar la seguridad desde las primeras etapas del desarrollo, reducir riesgos y garantizar que la infraestructura desplegada cumpla con los estándares de seguridad requeridos.</p>
+
+                    <img class="checkov-gif" src="../media/hero_video.gif" alt="checkov GIF">
+
+                    <h3 class="h3-article">Comparativas</h3>
+
+                    <table class="comparison-table">
+                        <thead>
+                            <tr>
+                                <th>Herramienta</th>
+                                <th>Open Source</th>
+                                <th>Integración CI/CD</th>
+                                <th>Soporte Multi-Cloud</th>
+                                <th>Personalización de Políticas</th>
+                                <th>Lenguajes/IaC Soportados</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Checkov</td>
+                                <td>Sí</td>
+                                <td>Alta</td>
+                                <td>Sí</td>
+                                <td>Sí</td>
+                                <td>Terraform, CloudFormation, Kubernetes, ARM, Dockerfile</td>
+                            </tr>
+                            <tr>
+                                <td>Snyk IaC</td>
+                                <td>Parcial</td>
+                                <td>Alta</td>
+                                <td>Sí</td>
+                                <td>Sí</td>
+                                <td>Terraform, CloudFormation, Kubernetes, ARM</td>
+                            </tr>
+                            <tr>
+                                <td>tfsec</td>
+                                <td>Sí</td>
+                                <td>Media</td>
+                                <td>Sí</td>
+                                <td>Sí</td>
+                                <td>Terraform</td>
+                            </tr>
+                            <tr>
+                                <td>Terraform Cloud</td>
+                                <td>No</td>
+                                <td>Alta</td>
+                                <td>Sí</td>
+                                <td>Limitada</td>
+                                <td>Terraform</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <h3 class="h3-article">Video: IaC con Checkov</h3>
+                    <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin-bottom:1.5rem;">
+                        <iframe width="919" height="526" src="https://www.youtube.com/embed/HSJfY_eFDqY" title="checkov: Terraform Plan" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
+                    </div>
+
+                    <h3 class="h3-article">tecnologías compatibles</h3>
+                    <span class="badge">Open Source</span>
+                    <span class="badge">Integración GitHub</span>
+                    <span class="badge">CLI Compatible</span>
+                    <span class="badge">CICD integration</span>
+                    <span class="badge">Azure DevOps</span>
+                    <span class="badge">Security Testing</span>
+                
+                </article>
+            </div>    
+    </div>
+    <footer>
+        <p>&copy; 2025 Kevin Ruiz  | <strong>9490-25-10092</strong></p>
+    </footer>
+</body>
+</html>

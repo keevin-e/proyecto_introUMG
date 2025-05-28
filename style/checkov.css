@@ -1,0 +1,60 @@
+/* ------ CHECKOV PAGE ------ */
+
+/* Estilos para Checkov */
+.checkov-logo {
+    display: block;
+    margin: 1rem auto 1.5rem auto;
+    max-width: 500px;
+    padding: 0.5rem
+}
+/* imagen gif */
+.checkov-gif {
+    max-width: 650px;
+    justify-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* etiquetas */
+.badge {
+    background: #457b9d;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 8px;
+    font-size: 12px;
+    margin-right: 4px;
+}
+
+/* Tablas de comparación */
+.comparison-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.5rem 0;
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
+}
+
+.comparison-table th,
+.comparison-table td {
+    border: 1px solid #e0e0e0;
+    padding: 0.75em 1em;
+    text-align: left;
+}
+
+.comparison-table th {
+    background: #2d3a4b;
+    color: #fff;
+    font-weight: 500;
+}
+
+.comparison-table tr:nth-child(even) {
+    background: #f7fafd;
+}
+
+.comparison-table tr:hover {
+    background: #e3f0fc;
+}
+
+.comparison-table td {
+    font-size: 0.98em;
+}

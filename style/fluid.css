@@ -1,0 +1,16 @@
+
+/* ------ FLUID PAGE ------ */
+
+
+.fluid-logo {
+    display: block;
+    margin: 2rem auto 1.5rem auto;
+    max-width: 480px;
+    padding: 0.5rem
+}
+
+.flow-fluid {
+    max-width: 85%;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+}
